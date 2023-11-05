@@ -31,6 +31,7 @@
                 <tbody> 
                     <?php
                     $no =1;
+                    if (isset($user)) {
                         foreach ($user as $user) {
                     echo "<tr>
                         <td>$no</td>
@@ -49,7 +50,8 @@
                         </td>
                     </tr>";
                     $no++;
-                    } ?>
+                    } 
+                }?>
                 </tbody>
             </table>
         </div>

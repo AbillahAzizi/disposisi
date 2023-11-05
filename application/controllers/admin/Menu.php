@@ -12,7 +12,7 @@ class Menu extends CI_Controller {
     { 
         $data = array(
         'title' => 'Dashboard',
-        'content' => "admin/dashboard/index"
+        'content' => "admin/template/main"
         );
 
         $this->load->view('admin/template/main',$data);
